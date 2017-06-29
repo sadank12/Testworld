@@ -57,7 +57,7 @@ public class addemployee {
 				System.out.println("Add Employee  page not displayed");
 			}
 			
-			String lname="Harshika";
+			String lname="ShrinikaHarshika";
 			String fname="Karup";
 			String empid=driver.findElement(By.id("txtEmployeeId")).getAttribute("value");
 			WebElement lastname=driver.findElement(By.id("txtEmpLastName"));
